@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>CodePen - Programming Nanodegree Notes</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <!DOCTYPE html>
+<head>
+  <title>Programming Nanodegree Notes</title>
+  <link rel= "stylesheet" href="nano-style.css">
+</head>  
+<body>
+  <div>
+    <h1>KEY CONCEPTS</h1>
+    <div class= "lesson">
+      <h2>LESSON ONE: BASICS OF THE WEB AND HTML</h2>
+      <div class= "concept">
+        <div class= "concept-title">
+         What is a web page?
+        </div>
+        <div class= "concept-description">
+          <p>The internet is made up of pages of HTML (Hyper Text Markup Language) that are stored on servers and transmitted through HTTP to individual computers.   </p>
+        </div> 
+       </div>
+       <div class= "concept">
+         <div class= "concept-title">
+         How does Coding work?
+         </div>
+         <div class= "content-description">
+          <p>
+            Coding is writing text in a language that computers can understand. The primary language for this is HTML. HTML is made up of text content (what you see), markup (what it looks like), references to other documents (images, videos), and links to other pages.
+           </p>
+          </div>
+         </div>
+      <div class= "concept">
+        <div class= "concept-title">
+          Computers Are Stupid!
+        </div>
+        <div class= "concept-description">
+         <p>
+           Computers are stupid, in that they only understand the language they know and if there is even a small error, they cannot understand what they are being asked to do. This makes learning how to make code exactly precise is required. Computers can do anything we want, <em>IF</em> we learn how to communicate with them!
+          </p>
+        </div> 
+       </div>
+      <div class= "concept">
+        <div class= "concept-title">
+        Programmers can't remember everything!
+        </div>
+        <div class= "content-description">
+         <p>
+           There are too many details for anyone to remember. Learn the main concepts and structures, anything else (individual tags,etc.) can be looked up online through lots of great resources. (such as the Mozilla Developer Network or doing a Google search of what you are looking for)
+         </p>
+        </div>
+    </div>
+    <div class= "concept">
+      <div class= "concept-title">
+       Basic HTML Vocabulary
+      </div>
+      <div class= "concept-description">
+        <ul>Tag: commands inside brackets; for example, p for making a paragraph</ul>
+        <ul>Element: everything written within a set of opening and closing tags; format is: opening tag, content, closing tag </ul>
+        <ul>Attribute: a property of an HTML element; for example, href </ul>
+       </div>
+      </div>
+      <div class= "concept">
+        <div class= "concept-title">
+          Inline vs. Block Elements (Span and Div)
+        </div>
+        <div class= "content-description">
+         <p>
+           Huge concept to remember! Div is how you make BOXES around content on your page and really helps to organize the layout of the page. Also, it helps later with being able to style individual elements of your page. Span is the inline element and helps to style individual words, items, etc. within your boxes. For example, you can use span to make a word bold (and be more specific with how dark you want the boldness to be), instead of using the b tag. Understanding Span and Div really helps in visualizing how a webpage works!
+          </p>
+        </div>
+      </div>
+    </div> 
+     <div class= "lesson">
+      <h2>
+        LESSON TWO: CREATING A STRUCTURED DOCUMENT WITH HTML
+      </h2>
+      <div class= "concept">
+        <div class= "concept-title">
+         Tree-like structure of HTML
+        </div>
+        <div class= "concept-description">
+         <p>
+           When reading HTML as text, it has a tree-like structure and has boxes, nested within boxes, nested within boxes. This tree-like structure is referred to as DOM (Document Object Model). This contains HTML, which controls the <u>structure</u> of the page, and CSS, which controls the <u>style</u> of the page.
+         </p>
+        </div>  
+       </div>
+      <div class= "concept">
+        <div class= "concept-title">
+         Boxes!
+        </div> 
+        <div class= "concept-description">
+         <p>
+           A webpage can be thought of as a collection of boxes, which have boxes within boxes, that can be moved around to restructure the page. Boxes are built on the page from large boxes to small. In the actual HTML text, these boxes within boxes can be seen by HTML that is indented. This is where Div comes into play again since it is how you make your boxes.
+          </p>
+        </div>
+       </div>
+      <div class= "concept">
+        <div class= "concept-title">
+          Text Editors for Programming
+        </div>
+        <div class= "concept-description">
+         <p>
+           Using special text editors, such as Sublime Text or Codepen, help to make things easier on the programmer. For example, the program will guess what tag you are trying to enter or automatically generate a closing tag when you enter an opening tag! Also, they allow you to make changes and see results to decide if you want to keep your change or stay with what you had.
+          </p>
+         </div>
+       </div>
+    </div> 
+       <div class= "lesson">
+         <h2>
+            LESSON THREE: ADDING CSS STYLE TO HTML STRUCTURE
+         </h2>
+         <div class= "concept">
+           <div class= "concept-title">
+             What is CSS?
+           </div>
+           <div class= "concept-description">
+             <p>
+              CSS (Cascading Style Sheets) allows us to use code to avoid repetition. Also, allows us to separate our html and css into different files to keep our html neater, as well as allowing us to reuse our CSS in other projects. A relatively small amount of CSS can style even a large HTML document!
+             </p>
+           </div>
+         </div>
+         <div class= "concept">
+           <div class= "concept-title">
+             Inheritance in CSS
+           </div>
+           <div class= "concept-description">
+             <p>
+               CSS properties are applied not only to a specified element, but to it's descendents, as well. This allows developers to not have to repeat code over and over. Also enhances faster loading web pages and saves on bandwidth used and development costs.
+             </p>
+           </div>
+         </div>
+         <div class= "concept">
+           <div class= "concept-title">
+             How Do I Include CSS Styling In My Web Page?
+           </div>
+           <div class= "concept-description">
+             <p>
+               1. Write CSS in the head of your HTML. (This is good for small projects)
+             </p>
+             <p>
+               At the top of your HTML document, add a head element. Inside the head element, add a style element. Write your CSS in the style element and then put the HTML for the rest of your page below.
+             </p>
+             <p>
+               2. Link your HTML to a separate CSS file. This adds another step, but allows for easier organization of larger projects.
+             </p>
+             <p>
+               First, write all of your structural HTML in one file. Then, in a separate file, put all of your CSS code. Add a head element to the top of your HTML. Add a link tag inside of the head element. Then add the appropriate attributes to your link. Make sure to have your HTML file and CSS file contained within the same folder!
+             </p>
+             <p>
+               3. Write your style inline with your HTML. This is generally a bad idea which leads to a lot of repeated code. Also, increases the likelihood of mistakes since you are writing more code.
+             </p>
+           </div> 
+         </div>
+         <div class= "concept">
+           <div class= "concept-title">
+             Positioning Boxes
+           </div>
+           <div class= "concept-description">
+             <p>
+               To position boxes, create a flex-box layout. To do this, apply display:flex to the parent element. HTML elements are boxes and each box has four components. Because there are so many components to each box, getting the size of a single box right can be difficult. There are two techniques to help deal with sizing issues: one, set sizes in terms of percents, instead of pixels and two, set the box-sizing attribute to border-box for every element. (ex. box-sizing: border-box)  <a href="https://www.udacity.com/course/viewer#!/c-ud721-nd/l-3575138706/m-2771378571"> This Clip </a> does a good job of showing how to position and line up boxes next to each other.
+               </p>
+           </div> 
+         </div>
+       </div>
+     </div>
+   </body>
+
+</body>
+
+</html>
